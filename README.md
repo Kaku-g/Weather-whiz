@@ -15,3 +15,11 @@
 - Created using ReactJs and Tailwindcss 
 - Hosted on vercel & CI/CD using github repo
 - Live website [Here](https://weather-whiz.vercel.app/)
+
+### Screenshots:
+
+![image](https://github.com/Kaku-g/Weather-whiz/assets/63788422/05d189ec-fda1-4308-96d4-d89a60cf220b)
+
+![image](https://github.com/Kaku-g/Weather-whiz/assets/63788422/584c50d9-34c2-460c-8650-ef74be5a3170)
+
+https://www.loom.com/share/5754146ae15e4e6b94c2af7ec6b15086

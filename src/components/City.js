@@ -1,5 +1,6 @@
 import React from "react";
 
+// component for showing city name and icon
 const City = ({ props }) => {
   let src = `http://openweathermap.org/img/w/${props.icon}.png`;
   return (

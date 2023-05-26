@@ -16,10 +16,13 @@ const Weather = () => {
   const [clicked, setClicked] = useState(false);
   const [error, setError] = useState(false);
 
+  //set selected city in autocomplete feature
   const handleClick = (item) => {
     setSelectedCity(item);
   };
 
+  //get weather details by making api call
+  //invoked by clicking the find button
   const getWeather = async () => {
     axios
       .get(
@@ -46,6 +49,7 @@ const Weather = () => {
       });
   };
 
+  //regex matching to find autocomplete cities in search bar
   const searchCity = (text) => {
     let matches = cities.filter((city) => {
       const regex = new RegExp(`${text}`, "gi");
@@ -54,12 +58,14 @@ const Weather = () => {
     setCityMatch(matches);
   };
 
+  //update the city value onchanging the search input
   const updateCity = (value) => {
     setCity(value);
     searchCity(value);
     setSelectedCity("");
   };
 
+  //function to handle autocomplete feature
   const autoComplete = (item) => {
     setCity(item);
 

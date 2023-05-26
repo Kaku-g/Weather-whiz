@@ -6,6 +6,8 @@ import {
   WiWindBeaufort11,
   WiHumidity,
 } from "react-icons/wi";
+//retruns the main component for showing
+//temp, windspeed,humidity,condition
 const Main = ({ props }) => {
   return (
     <div className="grid sm:grid-cols-2 md:grid-cols-4  gap-1">

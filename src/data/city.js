@@ -1,3 +1,5 @@
+//contains city data for autocomplete feature
+
 export const cities = [
   "Abidjan",
   "Abu Dhabi",

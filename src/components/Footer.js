@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="pb-10">
+    <div className="pb-10 pl-5 sm:pl-0  ">
       <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <span className="block text-md text-black sm:text-center dark:text-gray-400">
         Opensourced on

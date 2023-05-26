@@ -68,13 +68,13 @@ const Weather = () => {
   return (
     <div className="bg-gray-900  rounded-md  mt-5 m-10 min-h-screen ">
       <div className="flex flex-col items-center    sm:py-10 md:pl-20 rounded-md md:ml-20  mb-1 ml-10  ">
-        <div className="flex justify-center ">
-          <div className=" flex flex-col jusitfy-center items-center  relative isolate overflow-hidden">
+        <div className=" flex flex-col  md:flex-row  justify-center ">
+          <div className="  flex-col sm:pt-5 jusitfy-center items-center  relative isolate overflow-hidden">
             <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
               Weather Whiz
             </h2>
             <p className="mt-4 text-lg leading-8 text-gray-300">
-              Real time weather forcast
+              Real time weather updates
             </p>
             <div className="mt-6  flex max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
@@ -100,11 +100,13 @@ const Weather = () => {
               </button>
             </div>
           </div>
-          {weather ? <City props={weather} /> : <Icons />}
+          <div className=" sm:flex-col justify-center">
+            {weather ? <City props={weather} /> : <Icons />}
+          </div>
         </div>
       </div>
-      <div className="z-50 fixed  sm:top-20 sm:pt-20 sm:mt-20 sm:left-50  sm:ml-7 md:mt-30  md:pl-20 md:ml-40 md:top-30 ">
-        <div className=" md:ml-20   w-100  max-h-[200px] max-w-[200px]   overflow-y-scroll">
+      <div className="z-50 fixed    top-10  sm:top-20 sm:pt-20 sm:mt-20 sm:left-50  sm:ml-7 md:mt-30  md:pl-20 md:ml-40 md:top-30 ">
+        <div className=" md:ml-20   top-10  max-h-[100px] max-w-[100px]  sm:max-h-[200px] sm:max-w-[150px]   overflow-y-scroll">
           <ul className="divide-y divide-gray-200 bg-white ">
             {!selectedCity &&
               city &&
@@ -124,7 +126,7 @@ const Weather = () => {
 
       {weather && <Main props={weather} />}
       {!weather && !city && (
-        <h1 className="text-white text-center pb-5 ">
+        <h1 className="  text-white text-center pb-5 ">
           Get started by selecting your city!!
         </h1>
       )}

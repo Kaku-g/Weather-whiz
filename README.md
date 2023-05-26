@@ -18,8 +18,11 @@
 
 ### Screenshots:
 
-![image](https://github.com/Kaku-g/Weather-whiz/assets/63788422/7fce7d4e-b429-4a91-b0d4-fc528ec6d21f)
+![image](https://github.com/Kaku-g/Weather-whiz/assets/63788422/0931beed-d994-486a-8766-443b0160a05c)
 
-![image](https://github.com/Kaku-g/Weather-whiz/assets/63788422/405ef0be-4233-4d00-9827-e2dee0ec7787)
+![image](https://github.com/Kaku-g/Weather-whiz/assets/63788422/e78d02ff-6e11-4e75-8805-7d18ca07cf2a)
 
-https://www.loom.com/share/5754146ae15e4e6b94c2af7ec6b15086
+![image](https://github.com/Kaku-g/Weather-whiz/assets/63788422/fec273a5-1184-441d-abd1-81d458a312ef)
+
+[https://www.loom.com/share/5754146ae15e4e6b94c2af7ec6b15086
+](https://www.loom.com/share/9cdbeae2cf22455b86f8ec2acec714f2)

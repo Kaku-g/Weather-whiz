@@ -72,7 +72,7 @@ const Weather = () => {
     handleClick(item);
   };
   return (
-    <div className="bg-gray-900  rounded-md  mt-5 m-10 min-h-screen ">
+    <div className="bg-gray-900   rounded-md  sm:mt-5 sm:m-10 min-h-screen ">
       <div className="flex flex-col items-center    sm:py-10 md:pl-20 rounded-md md:ml-20  mb-1 ml-10  ">
         <div className=" flex flex-col  md:flex-row  justify-center ">
           <div className="  flex-col sm:pt-5 jusitfy-center items-center  relative isolate overflow-hidden">
@@ -82,7 +82,7 @@ const Weather = () => {
             <p className="mt-4 text-lg leading-8 text-gray-300">
               Real time weather updates
             </p>
-            <div className="mt-6  flex flex-col sm:flex-row max-w-md gap-x-4">
+            <div className="mt-6 pr-4 sm:pr-0  flex flex-col sm:flex-row max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
                 City Name
               </label>

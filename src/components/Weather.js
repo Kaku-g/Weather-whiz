@@ -82,7 +82,7 @@ const Weather = () => {
             <p className="mt-4 text-lg leading-8 text-gray-300">
               Real time weather updates
             </p>
-            <div className="mt-6  flex max-w-md gap-x-4">
+            <div className="mt-6  flex flex-col sm:flex-row max-w-md gap-x-4">
               <label htmlFor="email-address" className="sr-only">
                 City Name
               </label>
@@ -99,7 +99,7 @@ const Weather = () => {
               />
               <button
                 type="submit"
-                className="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                className=" mt-4 sm:mt-0 flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                 onClick={getWeather}
               >
                 Find
